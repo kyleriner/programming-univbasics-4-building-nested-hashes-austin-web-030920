@@ -21,7 +21,9 @@ def monopoly_with_third_tier
     :rent_in_dollars => {
       :key1 => 5, :key2 => 10, :key3 => 20, :key4 => 100
     },
-    :names => {}}}
+    :names => {
+      :place1 => "some1", :key2 => "some2", :place3 => "some3", :place4 => "some4"
+    }}}
 end
 
 def monopoly_with_fourth_tier
